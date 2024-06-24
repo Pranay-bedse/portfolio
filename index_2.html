@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            text-align: center;
+        }
+        header {
+            background-image: url('/mnt/data/image.png'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            padding: 50px 0;
+            color: #800000; /* Dark red color */
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+            font-style: italic; /* Italic text */
+        }
+        section {
+            padding: 50px 20px;
+        }
+        
+        .resume a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #d83787;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid #d83787;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .resume a:hover {
+            background-color: white;
+            color: #800000; /* Dark red color */
+        }
+        .contact img {
+            width: 130px;
+            height: auto;
+            margin: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        .skills h2, .section-container h2 {
+            color: #800080; /* Matches the color used in the provided images */
+        }
+        .skills-row, .internships-container, .projects-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .skill-item, .internship-item, .project-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+        }
+        .skill-item img, .internship-item img, .project-item img {
+            width: 130px;
+            height: auto;
+        }
+        .skill-item p, .internship-item p, .project-item p {
+            margin-top: 10px;
+            font-size: 1em;
+            color: #800080; /* Matches the color used in the provided images */
+        }
+
+        /* New CSS Rule for headers after About */
+        .uniform-header {
+            font-size: 2em; /* Desired uniform size */
+            color: #800080;
+        }
+    </style>
+</head>
+<body>
+
+<header class="portfolio-header">
+    <h1>Portfolio</h1>
+    <p>Even Space Is Not A Limit...<br>(if You Know Data)</p>
+</header>
+
+<style>
+.portfolio-header {
+    background-image: url('Portfolio background.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Adjust padding as necessary */
+    text-align: center;
+    color: #800080; /* Adjust text color for better readability against the background */
+}
+.portfolio-header h1,
+.portfolio-header p {
+    color: #800080; /* Change text color to black */
+    font-style: italic; /* Make text italic */
+}
+
+.portfolio-header p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+</style>
+
+<section>
+    <h2 class="About-heading uniform-header">About</h2>
+    <p style="font-size: 1rem; max-width: 1000px; margin: 0 auto;">Hi! Thanks for taking the time to visit my portfolio. I'm Pranay Bedse, An Certified Data Analyst, Data Scientist & Google Certified Python Programmer, along with that a highly motivated and disciplined individual with a passion for data analysis, data science and machine learning. I have the technical expertise and knowledge required for success in the field thanks to my extensive background in Electronics & Communication Engineering and my numerous certifications in Python, Power Bi, Advance Excel, SQL, data analysis, machine learning, and data visualization, etc. I have developed strong leadership & management skills while honing my skills through real-world administration. I am driven to continuously learn and adapt to the evolving digital landscape, and I am eager to apply my skills and contribute to innovative projects as a Data Scientist or Data Analyst.</p>
+</section>
+
+<section class="skills">
+    <h2 class="uniform-header">Skills</h2>
+    <div class="skills-row">
+        <div class="skill-item">
+            <img src="Python.png" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="skill-item">
+            <img src="SQL.png" alt="SQL">
+            <p>SQL</p>
+        </div>
+        <div class="skill-item">
+            <img src="Power BI 2.png" alt="Power BI">
+            <p>Power BI</p>
+        </div>
+        <div class="skill-item">
+            <img src="Excel.png" alt="MS Excel">
+            <p>MS Excel</p>
+        </div>
+        <div class="skill-item">
+            <img src="ML.png" alt="Machine Learning">
+            <p>Machine Learning</p>
+        </div>
+        <div class="skill-item">
+            <img src="Pandas.png" alt="Pandas">
+            <p>Pandas</p>
+        </div>
+    </div>
+    <div class="skills-row">
+        <div class="skill-item">
+            <img src="numpy.png" alt="NumPy">
+            <p>NumPy</p>
+        </div>
+        <div class="skill-item">
+            <img src="Matplotlib.png" alt="Matplotlib">
+            <p>Matplotlib</p>
+        </div>
+        <div class="skill-item">
+            <img src="seaborn.png" alt="Seaborn">
+            <p>Seaborn</p>
+        </div>
+        <div class="skill-item">
+            <img src="SKL.png" alt="Scikit Learn">
+            <p>Scikit Learn</p>
+        </div>
+        <div class="skill-item">
+            <img src="Microsoft_Office.png" alt="MS Office">
+            <p>MS Office</p>
+        </div>
+        <div class="skill-item">
+            <img src="Data Cleaning.png" alt="Data Cleaning">
+            <p>Data Cleaning</p>
+        </div>
+    </div>
+</section>
+<style>
+.skills {
+    text-align: center;
+    margin: 20px 0;
+}
+.skills h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #800080; /* Matches the color used in the provided images */
+}
+.skills-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.skill-item img {
+    width: 130px;
+    height: auto;
+}
+.skill-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #800080; /* Matches the color used in the provided images */
+}
+</style>
+<style>
+.section-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.internships-container, .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.internship-item, .project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.internship-item img, .project-item img {
+    width: 300px;
+    height: auto;
+}
+.internship-item p, .project-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #800080; /* Matches the color used in the provided images */
+}
+</style>
+
+
+<section class="section-container internships">
+    <h2 class="uniform-header">Certifications</h2>
+    <div class="internships-container">
+        <div class="skills-row">
+            <div class="internship-item"> 
+                <a href="Microsoft_Certificate.pdf" target="_blank">
+                    <img src="Microsoft_Certificate.png" alt="Microsoft">
+                    <p>Microsoft</p>
+                </a>
+            </div>
+            <div class="internship-item">
+                <a href="Google Certificate_.pdf" target="_blank">
+                    <img src="Google Certificate_.png" alt="Google">
+                    <p>Google</p>
+                </a>
+            </div>
+            <div class="internship-item">
+                <a href="IBM Business Analystics.pdf" target="_blank">
+                    <img src="IBM Business Analystics.png" alt="IBM">
+                    <p>IBM</p>
+                </a>
+            </div>
+        </div>
+        <div class="skills-row">
+            <div class="internship-item">
+                <a href="AWS.pdf" target="_blank">
+                    <img src="AWS.png" alt="AWS Machine Learning">
+                    <p>AWS Machine Learning</p>
+                </a>
+            </div>
+            <div class="internship-item">
+                <a href="https://www.credential.net/83b4509b-9dae-4d90-ab16-8d4784be7766#gs.aq58gf" target="_blank">
+                    <img src="SQL_2.png" alt="SQL">
+                    <p>SQL</p>
+                </a>
+            </div>
+            <div class="internship-item">
+                <a href="PowerBI.pdf" target="_blank">
+                    <img src="Power BI.png" alt="PowerBI">
+                    <p>PowerBI</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-container projects">
+    <h2 class="uniform-header">My Projects</h2>
+    <div class="projects-container">
+        <div class="project-item">
+			
+			<a href="https://github.com/Pranay-bedse/EDA-Project" target="_blank">
+			<img src="DA.png" alt="Data Analysis Projects">
+			<p>Data Analysis Projects</p>
+			</a>
+			
+        </div>
+        <div class="project-item">
+			<a href="https://github.com/Pranay-bedse" target="_blank">
+            <img src="DS.png" alt="Data Science Projects">
+            <p>Data Science Projects</p>
+			</a>
+        </div>
+        <div class="project-item">
+			<a href="https://app.powerbi.com/links/AOKZUyTnNw?ctid=76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61&pbi_source=linkShare" target="_blank">
+            <img src="Power BI Projects.jpg" alt="Power BI Projects">
+            <p>Power BI Projects</p>
+			</a>
+        </div>
+    </div>
+</section>
+
+<section class="resume">
+	<h2 class="resume-heading" style="color: #800080;">Resume</h2>
+    <a href="Pranay Bedse.pdf" download>Download</a>
+</section>
+
+<style>
+.resume {
+    text-align: center;
+    padding: 50px 20px;
+}
+.resume a {
+    display: inline-block;
+    width: calc(60vw - 40px); /* Match the max-width of the About section and adjust for padding */
+    max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d83787;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #d83787;
+    transition: background-color 0.3s, color 0.3s;
+}
+.resume a:hover {
+    background-color: white;
+    color: #800080;
+}
+</style>
+
+<section class="contact">
+    <h2 class="uniform-header">Questions</h2>
+    <p>Contact to get more information about me.</p>
+    <a href="https://www.linkedin.com/in/pranay29/" target="_blank">
+        <img src="linkedin-symbol-logo-22.png" alt="LinkedIn">
+    </a>
+    <a href="https://wa.me/8347423261" target="_blank">
+        <img src="whatsapp-png-logo-7.png" alt="WhatsApp">
+    </a>
+    <a href="mailto:pranayrajubedse@gmail.com" target="_blank">
+        <img src="Gmail-Logo.wine.png" alt="Gmail">
+    </a>
+</section>
+
+<footer>
+    &copy; 2024 Pranay Bedse |   [+91 8347423261]  |   [pranayrajubedse@gmail.com] 
+</footer>
+
+</body>
+</html>
